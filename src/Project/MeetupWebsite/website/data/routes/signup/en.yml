@@ -1,0 +1,22 @@
+id: signup
+
+fields:
+  pageTitle: Join Sitecore Meetups
+
+placeholders:
+  jss-nav:
+    - componentName: NavBar
+      fields:
+        logo:
+          value:
+            src: /data/media/img/sc_logo.png
+            alt: Logo
+        navLinks:
+          - id: about
+          - id: meetups
+          - id: signup
+  jss-main:
+    - componentName: SignUpSection
+      fields:
+        heading: Join the Network of SUG
+        subHeading: Sitecore User Groups Network

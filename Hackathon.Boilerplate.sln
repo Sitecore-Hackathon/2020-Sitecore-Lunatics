@@ -31,12 +31,48 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XConnect", "XConnect", "{CDFE128A-67F5-46B0-84E2-44BFE6C4474D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.Foundation.XConnect", "src\Foundation\XConnect\website\Meetup.Foundation.XConnect.csproj", "{C1CF34DA-903D-415C-A6E5-0C9E87971BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityService", "IdentityService", "{5EC75F58-3D89-4548-A036-EC2EDB27B52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.Feature.IdentityService", "src\Feature\IdentityService\website\Meetup.Feature.IdentityService.csproj", "{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MeetupWebsite", "MeetupWebsite", "{8D78873F-33AF-42FF-A3DD-8559B8485CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.Project.MeetupWebsite", "src\Project\MeetupWebsite\website\Meetup.Project.MeetupWebsite.csproj", "{AD6AFC40-9C11-4233-B14A-70BE7D201F78}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1CF34DA-903D-415C-A6E5-0C9E87971BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CF34DA-903D-415C-A6E5-0C9E87971BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CF34DA-903D-415C-A6E5-0C9E87971BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CF34DA-903D-415C-A6E5-0C9E87971BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6AFC40-9C11-4233-B14A-70BE7D201F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6AFC40-9C11-4233-B14A-70BE7D201F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6AFC40-9C11-4233-B14A-70BE7D201F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6AFC40-9C11-4233-B14A-70BE7D201F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{CDFE128A-67F5-46B0-84E2-44BFE6C4474D} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{C1CF34DA-903D-415C-A6E5-0C9E87971BD7} = {CDFE128A-67F5-46B0-84E2-44BFE6C4474D}
+		{5EC75F58-3D89-4548-A036-EC2EDB27B52B} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{A2E975A7-76E5-44CC-8789-AEEB3A1D1DD1} = {5EC75F58-3D89-4548-A036-EC2EDB27B52B}
+		{8D78873F-33AF-42FF-A3DD-8559B8485CEE} = {15D97D61-D597-42EC-B7E9-E9EC8130E630}
+		{AD6AFC40-9C11-4233-B14A-70BE7D201F78} = {8D78873F-33AF-42FF-A3DD-8559B8485CEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}

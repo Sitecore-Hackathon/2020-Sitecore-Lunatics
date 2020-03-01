@@ -4,8 +4,6 @@
 
 This was a submission for Sitecore Hackathon 2020, created by Sitecore Technology MVPs Tony Mamedbekov and Dylan Young.
 
-## About
-
 Our website is developed in JSS to provide headless content data from the Sitecore Experience Platform.  We have several customizations to the OOTB behavior to handle a custom identity provider and to work
 
 ## Documentation

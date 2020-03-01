@@ -318,3 +318,10 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+
+/data/*/**
+!/data/*/.gitkeep
+
+/deploy/*/**
+!/deploy/*/.gitkeep
+!/deploy/serialization/**

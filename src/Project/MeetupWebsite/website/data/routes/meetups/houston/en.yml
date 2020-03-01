@@ -1,0 +1,24 @@
+id: houston
+fields:
+  pageTitle: Welcome to Sitecore Houston Meetup
+# Define the page layout starting at the root placeholder - in this case, 'jss-main'
+# root placeholder names are defined in the package.json config section (required for Sitecore deployment)
+placeholders:
+  jss-nav:
+    - componentName: NavBar
+      fields:
+        logo:
+          value:
+            src: /data/media/img/sc_logo.png
+            alt: Logo
+        navLinks:
+          - id: about
+          - id: meetups
+          - id: signup
+  jss-main:
+    - componentName: HeroMeetup
+      fields:
+        heading: Houston
+    - componentName: UpcomingEvents
+      fields:
+        heading: Houston Upcoming Meetups

@@ -1,71 +1,76 @@
 # Documentation
 
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Sitecore Meetup Website
+<Br>**Team:** Sitecore Lunatics
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+We went with the Meetup website.  On the homepage will be an active listing of upcoming events for the community.  There will be two types of users that frequent the website.  There will be meetup organizes and then there will be those that would register for an upcoming event.  No matter what your role on the site, you can go to the Join section and create or login to the website.  Once authenticated, you will be presented with a dashboard that will show your upcoming events based on your account information.  Those with elevated priveledges will be able to create new SUG events.
+
+`TODO: Add Homepage Screenshot`
 
 ## Pre-requisites
 
-Does your module rely on other Sitecore modules or frameworks?
-
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Sitecore 9.3 with JavaScript Services (JSS)
+- React JSS
+- Authentication is handled via a Third-party identity provider
+- Bulma.io
 
 ## Installation
 
+Download the latest release package from the `Releases` tab.  Current version as of the time of this writing is `0.1.0`.  Download that locally, and then unzip.  Open
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Install Sitecore 9.3 using SIF or the provided Sitecore Docker compose file.
+2. Use the release zip provided to install within Sitecore..
+3. Use the Sitecore Installation wizard to install the package
+4. Do a full publish to make sure everything gets published.
 
 ## Configuration
 
-How do you configure your module once it is installed? Are there items that need to be updated with settings, or maybe config files need to have keys updated?
+Once you've installed, you will need to define a third party authentication provider in order to manage users, and roles.
 
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+The second heavy lift of the website, is deployment, which you can learn more about in the [Usage Section](#usage).
 
 ## Usage
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
+This is a complete website, and not a module.  Users would pull the source and deploy up to their favorite hosting provider.  Your hosting solution should follow the JSS best practices described here (https://jss.sitecore.com/docs/techniques/devops).
 
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
+## Pages
 
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
+### Homepage
 
-You can embed images of different formats too:
+The homepage will list upcoming events in your area. As well as provide a brief introduction.
 
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
+![Homepage Screenshot](images/homepage-screenshot.png)
 
-And you can embed external images too:
+### Meetups (Listing and Details Page)
 
-![Random](https://placeimg.com/480/240/any "Random")
+The Meetups landing page, will display a list of upcoming events across multiple regions
+
+![Meetups Screenshot](images/meetups-screenshot.png)
+
+### Signup
+
+The signup page, allows a user to register so that they can manage what user groups they want to RSVP to. 
+
+![Signup Screenshot](images/register-screenshot.png)
+
+### Dashboard
+
+This is an interface that will allow you to view a list of upcoming events in your specific region.  It will allow you to RSVP in a specific event.
+
+![Dashboard Screenshot](images/dashboard-screenshot.png)
 
 ## Video
 
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
+We have uploaded a video that highlights the capabilities of this module:
 
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[Team Sitecore Lunatics Video](https://youtu.be/rtahxLN4-tA)
+
+## TL;DR
+
+If you didn't read the above, or you have questions reach out to the team:
+
+- Tony Mamedbekov ([@tmamedbekov](https://twitter.com/tmamedbekov))
+- Dylan Young ([@sitecore_master](https://twitter.com/sitecore_master))

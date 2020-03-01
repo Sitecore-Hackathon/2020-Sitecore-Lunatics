@@ -40,7 +40,7 @@ This is a complete website, and not a module.  Users would pull the source and d
 
 The homepage will list upcoming events in your area. As well as provide a brief introduction.
 
-![Homepage Screenshot](images/Image.png)
+![Homepage Screenshot](images/image.png)
 
 ### Meetup Location Page
 

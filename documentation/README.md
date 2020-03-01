@@ -7,8 +7,6 @@
 
 We went with the Meetup website.  On the homepage will be an active listing of upcoming events for the community.  There will be two types of users that frequent the website.  There will be meetup organizes and then there will be those that would register for an upcoming event.  No matter what your role on the site, you can go to the Join section and create or login to the website.  Once authenticated, you will be presented with a dashboard that will show your upcoming events based on your account information.  Those with elevated priveledges will be able to create new SUG events.
 
-`TODO: Add Homepage Screenshot`
-
 ## Pre-requisites
 
 - Sitecore 9.3 with JavaScript Services (JSS)

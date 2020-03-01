@@ -36,15 +36,15 @@ This is a complete website, and not a module.  Users would pull the source and d
 
 ## Pages
 
-### Homepage
+### Homepage, Meetups Landing Page
 
 The homepage will list upcoming events in your area. As well as provide a brief introduction.
 
-![Homepage Screenshot](images/homepage-screenshot.png)
+![Homepage Screenshot](images/Images.png)
 
-### Meetups (Listing and Details Page)
+### Meetup Location Page
 
-The Meetups landing page, will display a list of upcoming events across multiple regions
+The Meetups location page, will display a list of upcoming events across multiple regions
 
 ![Meetups Screenshot](images/meetups-screenshot.png)
 

@@ -46,7 +46,7 @@ The homepage will list upcoming events in your area. As well as provide a brief 
 
 The Meetups location page, will display a list of upcoming events across multiple regions
 
-![Meetups Screenshot](images/meetups-screenshot.png)
+![Meetups Screenshot](images/houston.png)
 
 ### Signup
 

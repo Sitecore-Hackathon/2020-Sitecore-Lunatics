@@ -66,7 +66,7 @@ This is an interface that will allow you to view a list of upcoming events in yo
 
 We have uploaded a video that highlights the capabilities of this module:
 
-[Team Sitecore Lunatics Video](https://www.youtube.com/watch?v=EpNhxW4pNKk)
+[Team Sitecore Lunatics Video](https://youtu.be/rtahxLN4-tA)
 
 ## TL;DR
 
